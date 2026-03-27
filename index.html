@@ -1225,11 +1225,11 @@
   </section>
 
   <!-- ── SECTORS ──────────────────────────────────────────── -->
-  <section class="bg-[#f4f7f9] py-20 lg:py-28 font-display" id="sectors">
+  <section class="bg-[#f4f7f9] py-16 lg:py-24 font-display" id="sectors">
     <div class="max-w-[1240px] mx-auto px-8 w-full">
 
       <!-- Top Section -->
-      <div class="mb-16 lg:mb-24 flex flex-col lg:flex-row lg:items-center justify-between">
+      <div class="mb-12 lg:mb-16 flex flex-col lg:flex-row lg:items-center justify-between">
         <h2 class="text-[36px] lg:text-[44px] font-bold leading-[1.15] tracking-tight">
           <span class="text-black">Sectors We</span>
           <span class="text-[#005b93]">Protect</span>
@@ -1237,77 +1237,158 @@
       </div>
 
       <!-- Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
 
         <!-- Item 1 -->
-        <div class="flex flex-col items-start border-b border-[#005b93]/20 pb-8">
-          <div class="mb-6 h-12 flex items-center">
-            <svg viewBox="0 0 20 20" fill="none" class="w-10 h-10">
+        <div
+          class="relative group flex flex-col items-start bg-white p-4 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-black/5 hover:border-[#005b93]/20 hover:-translate-y-1 overflow-hidden cursor-pointer">
+          <div
+            class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#005b93] to-[#4cbf7b] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+          </div>
+          <div
+            class="mb-6 lg:mb-8 h-16 w-16 rounded-2xl bg-[#f4f7f9] flex items-center justify-center group-hover:bg-[#005b93]/5 transition-colors duration-300">
+            <svg viewBox="0 0 20 20" fill="none"
+              class="w-10 h-10 transform group-hover:scale-110 transition-transform duration-300">
               <path d="M3 17V7l7-4 7 4v10H3z" stroke="#005b93" stroke-width="1.5" stroke-linecap="round"
                 stroke-linejoin="round" />
               <rect x="8" y="11" width="4" height="6" stroke="#005b93" stroke-width="1.5" stroke-linecap="round"
                 stroke-linejoin="round" />
             </svg>
           </div>
-          <div class="text-[17px] font-bold text-black tracking-tight">Oil &amp; Gas</div>
+          <h3
+            class="text-[20px] font-bold text-black tracking-tight group-hover:text-[#005b93] transition-colors duration-300">
+            Oil &amp; Gas</h3>
+          <a href="#explore"
+            class="mt-4 pt-4 border-t border-transparent group-hover:border-black/5 w-full flex items-center text-[#4cbf7b] font-semibold text-sm opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0">
+            <span>Explore Systems</span>
+            <svg class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
         </div>
 
         <!-- Item 2 -->
-        <div class="flex flex-col items-start border-b border-[#005b93]/20 pb-8">
-          <div class="mb-6 h-12 flex items-center">
-            <svg viewBox="0 0 20 20" fill="none" class="w-10 h-10">
+        <div
+          class="relative group flex flex-col items-start bg-white p-4 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-black/5 hover:border-[#005b93]/20 hover:-translate-y-1 overflow-hidden cursor-pointer">
+          <div
+            class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#005b93] to-[#4cbf7b] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+          </div>
+          <div
+            class="mb-6 lg:mb-8 h-16 w-16 rounded-2xl bg-[#f4f7f9] flex items-center justify-center group-hover:bg-[#005b93]/5 transition-colors duration-300">
+            <svg viewBox="0 0 20 20" fill="none"
+              class="w-10 h-10 transform group-hover:scale-110 transition-transform duration-300">
               <path d="M2 16h16M4 16V8l6-5 6 5v8" stroke="#005b93" stroke-width="1.5" stroke-linecap="round"
                 stroke-linejoin="round" />
               <path d="M10 3v-1M5 6l-2-1M15 6l2-1" stroke="#4cbf7b" stroke-width="1.5" stroke-linecap="round"
                 stroke-linejoin="round" />
             </svg>
           </div>
-          <div class="text-[17px] font-bold text-black tracking-tight">Airports</div>
+          <h3
+            class="text-[20px] font-bold text-black tracking-tight group-hover:text-[#005b93] transition-colors duration-300">
+            Airports</h3>
+          <a href="#explore"
+            class="mt-4 pt-4 border-t border-transparent group-hover:border-black/5 w-full flex items-center text-[#4cbf7b] font-semibold text-sm opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0">
+            <span>Explore Systems</span>
+            <svg class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
         </div>
 
         <!-- Item 3 -->
-        <div class="flex flex-col items-start border-b border-[#005b93]/20 pb-8">
-          <div class="mb-6 h-12 flex items-center">
-            <svg viewBox="0 0 20 20" fill="none" class="w-10 h-10">
+        <div
+          class="relative group flex flex-col items-start bg-white p-4 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-black/5 hover:border-[#005b93]/20 hover:-translate-y-1 overflow-hidden cursor-pointer">
+          <div
+            class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#005b93] to-[#4cbf7b] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+          </div>
+          <div
+            class="mb-6 lg:mb-8 h-16 w-16 rounded-2xl bg-[#f4f7f9] flex items-center justify-center group-hover:bg-[#005b93]/5 transition-colors duration-300">
+            <svg viewBox="0 0 20 20" fill="none"
+              class="w-10 h-10 transform group-hover:scale-110 transition-transform duration-300">
               <rect x="3" y="5" width="14" height="10" rx="1" stroke="#005b93" stroke-width="1.5" stroke-linecap="round"
                 stroke-linejoin="round" />
               <path d="M6 8h2v2H6zM9 8h2v2H9zM12 8h2v2h-2zM6 11h2v2H6zM9 11h2v2H9zM12 11h2v2h-2z" stroke="#4cbf7b"
                 stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </div>
-          <div class="text-[17px] font-bold text-black tracking-tight">Data Centres</div>
+          <h3
+            class="text-[20px] font-bold text-black tracking-tight group-hover:text-[#005b93] transition-colors duration-300">
+            Data Centres</h3>
+          <a href="#explore"
+            class="mt-4 pt-4 border-t border-transparent group-hover:border-black/5 w-full flex items-center text-[#4cbf7b] font-semibold text-sm opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0">
+            <span>Explore Systems</span>
+            <svg class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
         </div>
 
         <!-- Item 4 -->
-        <div class="flex flex-col items-start border-b border-[#005b93]/20 pb-8">
-          <div class="mb-6 h-12 flex items-center">
-            <svg viewBox="0 0 20 20" fill="none" class="w-10 h-10">
+        <div
+          class="relative group flex flex-col items-start bg-white p-4   rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-black/5 hover:border-[#005b93]/20 hover:-translate-y-1 overflow-hidden cursor-pointer">
+          <div
+            class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#005b93] to-[#4cbf7b] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+          </div>
+          <div
+            class="mb-6 lg:mb-8 h-16 w-16 rounded-2xl bg-[#f4f7f9] flex items-center justify-center group-hover:bg-[#005b93]/5 transition-colors duration-300">
+            <svg viewBox="0 0 20 20" fill="none"
+              class="w-10 h-10 transform group-hover:scale-110 transition-transform duration-300">
               <rect x="4" y="3" width="12" height="14" rx="1" stroke="#005b93" stroke-width="1.5" stroke-linecap="round"
                 stroke-linejoin="round" />
               <path d="M7 6h6M7 9h6M7 12h4" stroke="#4cbf7b" stroke-width="1.5" stroke-linecap="round"
                 stroke-linejoin="round" />
             </svg>
           </div>
-          <div class="text-[17px] font-bold text-black tracking-tight">Government &amp; Defence</div>
+          <h3
+            class="text-[20px] font-bold text-black tracking-tight group-hover:text-[#005b93] transition-colors duration-300">
+            Government &amp; Defence</h3>
+          <a href="#explore"
+            class="mt-4 pt-4 border-t border-transparent group-hover:border-black/5 w-full flex items-center text-[#4cbf7b] font-semibold text-sm opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0">
+            <span>Explore Systems</span>
+            <svg class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
         </div>
 
         <!-- Item 5 -->
-        <div class="flex flex-col items-start border-b border-[#005b93]/20 pb-8">
-          <div class="mb-6 h-12 flex items-center">
-            <svg viewBox="0 0 20 20" fill="none" class="w-10 h-10">
+        <div
+          class="relative group flex flex-col items-start bg-white p-4  rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-black/5 hover:border-[#005b93]/20 hover:-translate-y-1 overflow-hidden cursor-pointer">
+          <div
+            class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#005b93] to-[#4cbf7b] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+          </div>
+          <div
+            class="mb-6 lg:mb-8 h-16 w-16 rounded-2xl bg-[#f4f7f9] flex items-center justify-center group-hover:bg-[#005b93]/5 transition-colors duration-300">
+            <svg viewBox="0 0 20 20" fill="none"
+              class="w-10 h-10 transform group-hover:scale-110 transition-transform duration-300">
               <path d="M4 17V5h5v12M11 17V3h5v14" stroke="#005b93" stroke-width="1.5" stroke-linecap="round"
                 stroke-linejoin="round" />
               <path d="M6 7h1M6 9h1M6 11h1M13 5h1M13 7h1M13 9h1M13 11h1" stroke="#4cbf7b" stroke-width="1.5"
                 stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </div>
-          <div class="text-[17px] font-bold text-black tracking-tight">Commercial &amp; Industrial</div>
+          <h3
+            class="text-[20px] font-bold text-black tracking-tight group-hover:text-[#005b93] transition-colors duration-300">
+            Commercial &amp; Industrial</h3>
+          <a href="#explore"
+            class="mt-4 pt-4 border-t border-transparent group-hover:border-black/5 w-full flex items-center text-[#4cbf7b] font-semibold text-sm opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0">
+            <span>Explore Systems</span>
+            <svg class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
         </div>
 
         <!-- Item 6 -->
-        <div class="flex flex-col items-start border-b border-[#005b93]/20 pb-8">
-          <div class="mb-6 h-12 flex items-center">
-            <svg viewBox="0 0 20 20" fill="none" class="w-10 h-10">
+        <div
+          class="relative group flex flex-col items-start bg-white p-4   rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-black/5 hover:border-[#005b93]/20 hover:-translate-y-1 overflow-hidden cursor-pointer">
+          <div
+            class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#005b93] to-[#4cbf7b] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+          </div>
+          <div
+            class="mb-6 lg:mb-8 h-16 w-16 rounded-2xl bg-[#f4f7f9] flex items-center justify-center group-hover:bg-[#005b93]/5 transition-colors duration-300">
+            <svg viewBox="0 0 20 20" fill="none"
+              class="w-10 h-10 transform group-hover:scale-110 transition-transform duration-300">
               <circle cx="10" cy="10" r="6" stroke="#005b93" stroke-width="1.5" stroke-linecap="round"
                 stroke-linejoin="round" />
               <path d="M10 4v2M10 14v2M4 10h2M14 10h2" stroke="#4cbf7b" stroke-width="1.5" stroke-linecap="round"
@@ -1316,7 +1397,16 @@
                 stroke-linejoin="round" />
             </svg>
           </div>
-          <div class="text-[17px] font-bold text-black tracking-tight">Ports &amp; Logistics</div>
+          <h3
+            class="text-[20px] font-bold text-black tracking-tight group-hover:text-[#005b93] transition-colors duration-300">
+            Ports &amp; Logistics</h3>
+          <a href="#explore"
+            class="mt-4 pt-4 border-t border-transparent group-hover:border-black/5 w-full flex items-center text-[#4cbf7b] font-semibold text-sm opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0">
+            <span>Explore Systems</span>
+            <svg class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
         </div>
 
       </div>
